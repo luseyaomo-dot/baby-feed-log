@@ -1,5 +1,5 @@
 const CACHE_NAME = "baby-feed-log-v4";
-const APP_SHELL = ["./", "./manifest.webmanifest", "./icons/icon.svg"].map((path) => {
+const APP_SHELL = ["./", "./manifest.webmanifest", "./icon.svg"].map((path) => {
   return new URL(path, self.registration.scope).pathname;
 });
 
